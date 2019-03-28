@@ -1,0 +1,96 @@
+smallnet5.txt
+enter number of commodities
+edges from des =4,29
+edges from src =25,0
+edges from des =9,29
+edges from src =25,5
+edges from des =14,29
+edges from src =25,10
+edges from des =19,29
+edges from src =25,15
+edges from des =24,29
+edges from src =25,20
+edges from des =3,28
+edges from src =26,1
+edges from des =8,28
+edges from src =26,6
+edges from des =13,28
+edges from src =26,11
+edges from des =18,28
+edges from src =26,16
+edges from des =23,28
+edges from src =26,21
+Tried aggregator 1 time.
+LP Presolve eliminated 98 rows and 95 columns.
+Aggregator did 4 substitutions.
+Reduced LP has 14 rows, 22 columns, and 44 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =             1.000000
+Iteration:    11   Dual objective     =            61.818182
+Solution status = Optimal
+Solution value  = 19.09090909090909
+flow value =19.09090909090909
+ value of f_0_6_0 =200.0
+ value of f_0_7_0 =50.0
+ value of f_0_8_0 =150.0
+ value of f_1_7_1 =150.0
+ value of f_1_8_1 =150.0
+ value of f_5_11_0 =200.0
+ value of f_5_12_0 =300.0
+ value of f_5_14_0 =150.0
+ value of f_6_12_1 =150.0
+ value of f_6_13_1 =150.0
+ value of f_6_14_0 =200.0
+ value of f_7_13_1 =150.0
+ value of f_7_14_0 =50.0
+ value of f_8_14_0 =150.0
+ value of f_8_28_1 =150.0
+ value of f_11_17_1 =150.0
+ value of f_11_18_1 =150.0
+ value of f_11_19_0 =200.0
+ value of f_12_18_1 =150.0
+ value of f_12_19_0 =300.0
+ value of f_13_28_1 =300.0
+ value of f_14_29_0 =550.0
+ value of f_16_23_1 =150.0
+ value of f_17_23_1 =150.0
+ value of f_18_28_1 =300.0
+ value of f_19_29_0 =500.0
+ value of f_23_28_1 =300.0
+ value of f_25_0_0 =400.0
+ value of f_25_5_0 =650.0
+ value of f_26_1_1 =300.0
+ value of f_26_6_1 =300.0
+ value of f_26_11_1 =300.0
+ value of f_26_16_1 =150.0
+finding paths
+path 0 for comm 0 with flow 200.0=
+(25,0) ->(0,6) ->(6,14) ->(14,29) ->
+path 1 for comm 0 with flow 50.0=
+(25,0) ->(0,7) ->(7,14) ->(14,29) ->
+path 2 for comm 0 with flow 150.0=
+(25,0) ->(0,8) ->(8,14) ->(14,29) ->
+path 3 for comm 0 with flow 200.0=
+(25,5) ->(5,11) ->(11,19) ->(19,29) ->
+path 4 for comm 0 with flow 300.0=
+(25,5) ->(5,12) ->(12,19) ->(19,29) ->
+path 5 for comm 0 with flow 150.0=
+(25,5) ->(5,14) ->(14,29) ->
+path 0 for comm 1 with flow 150.0=
+(26,1) ->(1,7) ->(7,13) ->(13,28) ->
+path 1 for comm 1 with flow 150.0=
+(26,1) ->(1,8) ->(8,28) ->
+path 2 for comm 1 with flow 150.0=
+(26,6) ->(6,12) ->(12,18) ->(18,28) ->
+path 3 for comm 1 with flow 150.0=
+(26,6) ->(6,13) ->(13,28) ->
+path 4 for comm 1 with flow 150.0=
+(26,11) ->(11,17) ->(17,23) ->(23,28) ->
+path 5 for comm 1 with flow 150.0=
+(26,11) ->(11,18) ->(18,28) ->
+path 6 for comm 1 with flow 150.0=
+(26,16) ->(16,23) ->(23,28) ->
+done with finding paths
